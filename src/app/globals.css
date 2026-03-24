@@ -422,26 +422,9 @@ body {
       linear-gradient(to bottom, var(--background) 0%, #030810 40%, var(--background) 100%);
   }
 
-  /* Horizon glow line */
+  /* Horizon glow line - removed for cleaner look */
   .tron-background::before {
-    content: "";
-    position: absolute;
-    bottom: 45%;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background: linear-gradient(
-      to right,
-      transparent 0%,
-      rgba(0, 240, 255, 0.4) 20%,
-      rgba(0, 240, 255, 0.8) 50%,
-      rgba(0, 240, 255, 0.4) 80%,
-      transparent 100%
-    );
-    box-shadow:
-      0 0 20px rgba(0, 240, 255, 0.6),
-      0 0 40px rgba(0, 240, 255, 0.3),
-      0 0 60px rgba(0, 240, 255, 0.2);
+    display: none;
   }
 
   /* Perspective grid floor */
