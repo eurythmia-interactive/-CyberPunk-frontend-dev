@@ -40,7 +40,9 @@ jobs:
         run: pnpm tsc --noEmit
 
       - name: Build Next.js application
-        run: pnpm build
+        run: |
+          rm -rf .next out
+          pnpm build
 
       - name: Create .nojekyll file
         run: touch out/.nojekyll
