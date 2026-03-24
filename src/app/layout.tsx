@@ -19,7 +19,7 @@ const jetbrainsMono = JetBrains_Mono({
   adjustFontFallback: true,
 });
 
-const BASE_URL = 'https://cyberpunk-portfolio.dev';
+const BASE_URL = 'https://eurythmia-interactive.github.io/-CyberPunk-frontend-dev';
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
